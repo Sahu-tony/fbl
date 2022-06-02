@@ -1,0 +1,35 @@
+.xyz{
+    background-color: #c2c2c2;
+    height: 600px;
+    position: relative;
+  }
+  
+  .car_img{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+  }
+  
+  .career_form{
+    background-color: #CCD1D1;
+    width: 600px;
+    height: 510px;
+    position: absolute;
+    right: 250px;
+    margin-top: 50px;
+    border-radius: 25px;
+  
+  }
+  
+  .form_row{
+  
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  
+  .lit{
+    color: #6c757d;
+    text-align: left;
+  }

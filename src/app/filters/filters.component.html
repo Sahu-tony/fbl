@@ -1,0 +1,214 @@
+<p>filters works!</p>
+
+
+
+<div class="abc">
+    <div class="abc_head">
+      <p class="fil">FILTERS</p>
+    </div>
+    <hr>
+    <div class="abc_data">
+      <div style="margin-bottom:15px;">
+      <p class="categ">Categories</p>
+       <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="men" id="flexCheck1">
+        <label class="form-check-label" for="flexCheck1">
+           Men's Collection
+        </label>
+     </div>
+     <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="women" id="flexCheck2">
+      <label class="form-check-label" for="flexCheck2">
+         Women's Collection
+      </label>
+   </div>
+   <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="kids" id="flexCheck3">
+    <label class="form-check-label" for="flexCheck3">
+       Kid's Collection
+    </label>
+ </div>
+ <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="accessories" id="flexCheck4">
+  <label class="form-check-label" for="flexCheck4">
+     Accessories
+  </label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="footwear" id="flexCheck5">
+<label class="form-check-label" for="flexCheck5">
+   Footwear
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="cosmetics" id="flexCheck6">
+<label class="form-check-label" for="flexCheck6">
+ Cosmetics and Wellness Products
+</label>
+</div>
+</div>
+<div style="margin-bottom:15px;">
+<p class="categ">Annual Income</p>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="ten" id="Check1">
+<label class="form-check-label" for="Check1">
+ 0-10Lakhs
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="fifty" id="Check2">
+<label class="form-check-label" for="Check2">
+ 10-50Lakhs
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="onecr" id="Check3">
+<label class="form-check-label" for="Check3">
+ 50-1Cr
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="morecr" id="Check4">
+<label class="form-check-label" for="Check4">
+ >1Cr
+</label>
+</div>
+
+</div>
+<div style="margin-bottom:15px;">
+<p class="categ">Branches</p>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="one" id="Branch1">
+<label class="form-check-label" for="Branch1">
+ 1
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="two" id="Branch2">
+<label class="form-check-label" for="Branch2">
+ 2
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="three" id="Branch3">
+<label class="form-check-label" for="Branch3">
+ 3
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="four" id="Branch4">
+<label class="form-check-label" for="Branch4">
+ 4
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="morefour" id="Branch5">
+<label class="form-check-label" for="Branch5">
+ 5 or more
+</label>
+</div>
+</div>
+
+<div style="margin-bottom:15px;">
+<p class="categ">Location</p>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="hyd" id="Loc1">
+<label class="form-check-label" for="Loc1">
+  Hyderabad
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="warangal" id="Loc2">
+<label class="form-check-label" for="Loc2">
+  Warangal
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="other" id="Loc">
+<label class="form-check-label" for="Loc">
+  Others
+</label>
+</div>
+</div>
+
+<div style="margin-bottom:15px;">
+<p class="categ">Online Service</p>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="yes" id="Yes">
+<label class="form-check-label" for="Yes">
+  Yes
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="no" id="No">
+<label class="form-check-label" for="No">
+  No
+</label>
+</div>
+</div>
+
+<div style="margin-bottom:15px;">
+<p class="categ">Assosiated With Influencers</p>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="yes1" id="Yes1">
+<label class="form-check-label" for="Yes1">
+  Yes
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="no1" id="No1">
+<label class="form-check-label" for="No1">
+  No
+</label>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<!--Table-->
+
+<div style="overflow-x:auto;">
+<table>
+ <tr>
+   <th>Company Name</th>
+   <th>Number of Branches</th>
+   <th>Location</th>
+   <th>Category</th>
+   <th>Annual Income</th>
+   <th>Online Service</th>
+   <th>Associated with Influencers</th>
+   <th>Year of Establishment</th>
+
+ </tr>
+ <tr *ngFor="let user of user.username">
+  <td>{{user.company}}</td>
+  <td>{{user.position}}</td>
+  <td>{{user.office}}</td>
+  <td>
+</tr>
+
+</table>
+</div>
+
+<nav aria-label="Page-navigation " class="arrows">
+<ul class="pagination">
+ <li class="page-item">
+   <a class="page-link" href="#" aria-label="Previous">
+     <span aria-hidden="true">&laquo;</span>
+   </a>
+ </li>
+ <li class="page-item"><a class="page-link" href="#">1</a></li>
+ <li class="page-item"><a class="page-link" href="#">2</a></li>
+ <li class="page-item"><a class="page-link" href="#">3</a></li>
+ <li class="page-item">
+   <a class="page-link" href="#" aria-label="Next">
+     <span aria-hidden="true">&raquo;</span>
+   </a>
+ </li>
+</ul>
+</nav>
+
+
+<router-outlet></router-outlet>
