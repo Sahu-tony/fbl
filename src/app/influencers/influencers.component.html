@@ -1,11 +1,7 @@
-<p>influencers works!</p>
-
-
-
 <div class="info">
-    <div class="heading">
-    <h3 class="head_1">PARTNER WITH US AS </h3>
-    <h1 class="head_2">INFLUENCERS</h1>
+    <div class="heading" style="background-color:rgb(159, 151, 151);">
+    <h3 class="head_1 " style="text-align:center;">PARTNER WITH US AS </h3>
+    <h1 class="head_2" style="text-align:center;">INFLUENCERS</h1>
     </div>
     
     <!-- <div class="extra" >
@@ -19,18 +15,18 @@
      <img src="pic2" alt="picture" class="influ_pic" >
       </div>
       <h4>FILL IN THE FORM</h4>
-      <form class="row g-3">
+      <form class="row g-3" #ref="ngForm"  (ngSubmit)="onsend(ref.value)">
       <div class="col-sm-2">
         <label for="company" class="form-label">First Name *</label>
-        <input type="text" class="form-control" id="company" required>
+        <input type="text" class="form-control" id="company" ngModel required>
       </div>
       <div style="margin-left:12px;" class="col-sm-2">
         <label for="company" class="form-label">Middle Name</label>
-        <input type="text" class="form-control" id="company">
+        <input type="text" class="form-control" id="company" ngModel>
       </div>
       <div style="margin-left:12px;" class="col-sm-2">
         <label for="company" class="form-label"> Last Name *</label>
-        <input type="text" class="form-control" id="company" required>
+        <input type="text" class="form-control" id="company" required ngModel>
       </div>
       <!--<div class="col-sm-4"></div>  -->
       <!-- <div class="col-sm-4">
@@ -42,7 +38,7 @@
     
       <div style="display: inline-block;" class="col-sm-2" style="margin-top: 10px; ">
     <label for="date" aria-label="default select example" class="form-label">Date Of Birth *</label>
-      <input type="date" class="form-control" id="date" required>
+      <input type="date" class="form-control" id="date" ngModel required>
     
       </div>
     
@@ -50,7 +46,7 @@
     
     <div  style="display: inline-block; margin-left: 15px;" class="col-sm-2">
       <label for="no_of_branch" class="form-label" >Gender *</label>
-      <select class="form-select" aria-label="Default select example" placeholder="select" required>
+      <select class="form-select" aria-label="Default select example" placeholder="select" ngModel required>
       <option value="1" >Male</option>
       <option value="2">Female</option>
       <option value="3">Others</option>
@@ -62,7 +58,7 @@
     <div class="col-sm-3">
       <div class="form-group">
         <label class="form-label" for="seeAnotherFieldGroup">Are you below 18 years of age?</label>
-        <select class="form-control" id="seeAnotherFieldGroup">
+        <select class="form-control" id="seeAnotherFieldGroup" ngModel>
              <option value="" disabled selected> Select </option>
               <option value="yes">Yes</option>
               <option value="no">No</option>
@@ -77,16 +73,16 @@
     
           <div class="col-3">
     
-            <input type="text" class="form-control w-100" id="otherField1" placeholder="Full Name">
+            <input type="text" class="form-control w-100" id="otherField1" placeholder="Full Name" ngModel>
           </div>
           <div class="col-3">
     
-            <input type="text" class="form-control w-100" id="otherField2" placeholder="Contact Number">
+            <input type="text" class="form-control w-100" id="otherField2" placeholder="Contact Number" ngModel>
           </div>
           <div class="col-sm-6"></div>
           <div class="col-sm-3" >
             <label style="margin-bottom: 10px; margin-top:10px;">College ID card *</label>
-            <input class="form-control" type="file" id="otherField3" name="img" accept="image/*" placeholder="ID Card" required>
+            <input class="form-control" type="file" id="otherField3" name="img" accept="image/*" placeholder="ID Card" ngModel >
           </div>
         </div>
     
@@ -98,24 +94,24 @@
         <div class="col-sm-6" style="margin-top:10px;">
           <label for="Address" class="form-label">Address *</label>
       <!--  <label for="Address" class="form-label">Address *</label> -->
-        <input type="text" class="form-control" id="Address" placeholder="Street Address Line 1" >
+        <input type="text" class="form-control" id="Address" placeholder="Street Address Line 1" ngModel >
     
-        <input style="margin-top:15px;" type="text" class="form-control" id="Address" placeholder="Street Address Line 2">
+        <input style="margin-top:15px;" type="text" class="form-control" id="Address" placeholder="Street Address Line 2" ngModel>
     
     </div>
     <div class="col-sm-5"></div>
         <div style="margin-top:15px;" class="col-sm-3">
-          <input  type="text" class="form-control" id="Address" placeholder="City" required>
+          <input  type="text" class="form-control" id="Address" placeholder="City" ngModel required>
         </div>
         <div style="margin-top:15px;" class="col-sm-3">
-          <input  type="text" class="form-control" id="Address" placeholder="Region" required>
+          <input  type="text" class="form-control" id="Address" placeholder="Region" ngModel required>
         </div>
     <div class="col-sm-5"></div>
     <div style="margin-top:15px;" class="col-sm-3">
-      <input  type="number" class="form-control" id="Address" placeholder="Postal/Zip Code" required>
+      <input  type="number" class="form-control" id="Address" placeholder="Postal/Zip Code" ngModel required>
     </div>
     <div style="margin-top:15px;" class="col-sm-3">
-      <input  type="text" class="form-control" id="Address" placeholder="Country" required>
+      <input  type="text" class="form-control" id="Address" placeholder="Country" ngModel required>
     </div>
       </div>
     
@@ -126,28 +122,28 @@
       <label for="Address" class="form-label">PHYSCIAL DETAILS *</label>
     
         <div style="margin-top:15px;" class="col-sm-3">
-          <input  type="number" class="form-control" id="height" placeholder="height (in cm)" required>
+          <input  type="number" class="form-control" id="height" placeholder="height (in cm)" ngModel required>
         </div>
         <div style="margin-top:15px;" class="col-sm-3">
-          <input  type="number" class="form-control" id="waist" placeholder="waist (in inches)" required>
+          <input  type="number" class="form-control" id="waist" placeholder="waist (in inches)" ngModel required>
         </div>
         <div class="col-sm-5"></div>
     <div style="margin-top:15px;" class="col-sm-3">
-      <input  type="number" class="form-control" id="bust" placeholder="Bust (in inches)" required>
+      <input  type="number" class="form-control" id="bust" placeholder="Bust (in inches)" ngModel required>
     </div>
     <div style="margin-top:15px;" class="col-sm-3">
-      <input  type="number" class="form-control" id="clothsize" placeholder="Clothing size" required>
+      <input  type="number" class="form-control" id="clothsize" placeholder="Clothing size" ngModel required>
     
     </div>
      <div class="col-sm-5"></div>
     <!-- <div class="row"> -->
     
     <div style="margin-top:15px;" class="col-sm-3">
-      <input  type="number" class="form-control" id="pysical" placeholder="Hip (in inches)" required>
+      <input  type="number" class="form-control" id="pysical" placeholder="Hip (in inches)" ngModel required>
     </div>
     <div style="margin-top:15px;" class="col-sm-3">
     
-      <select class="form-select">
+      <select class="form-select" ngModel>
         <option value="" disabled selected> Eye Colour </option>
         <option value="1"> blue eyes </option>
         <option value="2"> brown eyes </option>
@@ -164,7 +160,7 @@
     
     <div style="margin-top:15px;" class="col-sm-3">
     
-      <select class="form-select" required>
+      <select class="form-select" required ngModel>
         <option value="" disabled selected> Skin Tone </option>
         <option value="1">  Porcelain </option>
         <option value="2">  Ivory </option>
@@ -187,7 +183,7 @@
     <!-- </div> -->
     <div style="margin-top:15px;" class="col-sm-3">
     
-    <select class="form-select" aria-label="Default select example" required>
+    <select class="form-select" aria-label="Default select example" ngModel required>
       <option value="" disabled selected>Hair colour</option>
       <option value="1">Black</option>
       <option value="2">Brown</option>
@@ -197,13 +193,13 @@
     </select>
     </div>
      <div class="col-sm-3">
-       <input type="text" class="form-control" id="other_color" placeholder="If other, mention the colour" >
+       <input type="text" class="form-control" id="other_color" placeholder="If other, mention the colour" ngModel>
      </div>
     
     <div class="col-sm-10"></div>
     
      <div class="col-sm-3" style="margin-top:0;">
-     <select class="form-select">
+     <select class="form-select" ngModel>
        <option value="" disabled selected> Shoe Size (UK Size) </option>
        <option value="1"> 3 </option>
        <option value="2"> 4 </option>
@@ -219,7 +215,7 @@
        </div>
        <div class="col-sm-8"></div>
        <div class="col-sm-3" style="margin-top:15px;">
-       <select class="form-select" aria-label="default select example" required>
+       <select class="form-select" aria-label="default select example" ngModel required>
          <option value="" disabled selected> Hair length  </option>
          <option value="1"> Ear length </option>
          <option value="2"> Chin length </option>
@@ -232,60 +228,48 @@
        </div>
     
     <div class="col-sm-8"></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <label for="Address" class="form-label">Social Media Handles*</label>
     
            <div style="margin-top:15px;" class="col-sm-3">
-             <input  type="" class="form-control" id="social" placeholder="Instagram" >
+             <input  type="" class="form-control" id="social" placeholder="Instagram" ngModel >
            </div>
            <div style="margin-top:15px;" class="col-sm-3">
-             <input  type="number" class="form-control" id="social" placeholder="Number of followers">
+             <input  type="number" class="form-control" id="social" placeholder="Number of followers" ngModel>
            </div>
            <div class="col-sm-5"></div>
        <div style="margin-top:15px;" class="col-sm-3">
-         <input  type="" class="form-control" id="social" placeholder="Facebook">
+         <input  type="" class="form-control" id="social" placeholder="Facebook" ngModel>
        </div>
        <div style="margin-top:15px;" class="col-sm-3">
-         <input  type="number" class="form-control" id="social" placeholder="Number of followers">
+         <input  type="number" class="form-control" id="social" placeholder="Number of followers" ngModel>
     
        </div>
     
     
        <div class="col-sm-5"></div>
          <div style="margin-top:15px;" class="col-sm-3">
-           <input  type="text" class="form-control" id="social" placeholder="LinkedIn">
+           <input  type="text" class="form-control" id="social" placeholder="LinkedIn" ngModel>
          </div>
          <div style="margin-top:15px;" class="col-sm-3">
-           <input  type="text" class="form-control" id="social" placeholder="Number of connections">
+           <input  type="text" class="form-control" id="social" placeholder="Number of connections" ngModel>
          </div>
     
-    
-         <div class="col-sm-5"></div>
-         <div style="margin-top:15px;" class="col-sm-3">
-           <input  type="" class="form-control" id="social" placeholder="Mojo">
-         </div>
-         <div style="margin-top:15px;" class="col-sm-3">
-           <input  type="number" class="form-control" id="social" placeholder="Number of followers">
-    
-         </div>
     
          <div class="col-sm-5"></div>
          <div style="margin-top:15px;" class="col-sm-3">
-           <input  type="" class="form-control" id="social" placeholder="Blog">
+           <input  type="" class="form-control" id="social" placeholder="Mojo" ngModel>
          </div>
          <div style="margin-top:15px;" class="col-sm-3">
-           <input  type="" class="form-control" id="social" placeholder="Link">
+           <input  type="number" class="form-control" id="social" placeholder="Number of followers" ngModel>
+    
+         </div>
+    
+         <div class="col-sm-5"></div>
+         <div style="margin-top:15px;" class="col-sm-3">
+           <input  type="" class="form-control" id="social" placeholder="Blog" ngModel>
+         </div>
+         <div style="margin-top:15px;" class="col-sm-3">
+           <input  type="" class="form-control" id="social" placeholder="Link" ngModel>
     
          </div>
          <div class="col-sm-5"></div>
@@ -301,7 +285,7 @@
     </div> -->
     <div class="col-sm-3">
       <label>Full Length*</label>
-      <input class="form-control" type="file" id="img" name="img" (change)="selectFile($event)" placeholder="Full Length" required>
+      <input class="form-control" type="file" id="img" name="img" (change)="selectFile($event)" placeholder="Full Length" ngModel required>
     </div>
     
     <div class="col-sm-1"></div>
@@ -309,7 +293,7 @@
     
          <div class="col-sm-3">
            <label for="no_of_branch" class="form-label" >Number of years active on social media *</label>
-           <select class="form-select" aria-label="Default select example" placeholder="select" required>
+           <select class="form-select" aria-label="Default select example" placeholder="select" ngModel required>
     
            <option value="1">0-1 years</option>
            <option value="2">1-2 years</option>
@@ -322,7 +306,7 @@
     
          <div class="col-sm-3">
            <label for="no_of_branch" class="form-label" >Preferred Work City*</label>
-           <select class="form-select" aria-label="Default select example" placeholder="select" required>
+           <select class="form-select" aria-label="Default select example" placeholder="select" ngModel required>
     
            <option value="1">Hyderabad</option>
            <option value="2">Warangal</option>
@@ -338,25 +322,25 @@
          <div class="col-sm-3" style="margin-top:10px;">
            <label for="Address" class="form-label">BRANDS ASSCOIATED SO FAR *</label>
     
-         <input type="text" class="form-control" id="Address" placeholder="Ex Myntra ,Amazon etc" required>
+         <input type="text" class="form-control" id="Address" placeholder="Ex Myntra ,Amazon etc" ngModel required>
          </div>
     
          <div class="col-sm-3" style="margin-top:10px;">
            <label for="Address" class="form-label">PREVIOUS COLLABORATIONS</label>
     
-         <input type="text" class="form-control" id="collab" placeholder="">
+         <input type="text" class="form-control" id="collab" placeholder="" ngModel>
          </div>
     
     
          <div class="col-sm-5"></div>
          <div style="margin-top:15px;" class="col-sm-3">
            <label> PHONE NUMBER* </label>
-           <input  type="number" class="form-control" id="contact" placeholder="+91"  pattern="[0-9]{10}" required>
+           <input  type="number" class="form-control" id="contact" placeholder="+91"  pattern="[0-9]{10}" ngModel required>
     
          </div>
          <div style="margin-top:15px;" class="col-sm-3">
            <label> EMAIL ID* </label>
-           <input  type="text" class="form-control" id="contact" placeholder="EMAIL ID" required>
+           <input  type="text" class="form-control" id="contact" placeholder="EMAIL ID" ngModel required>
          </div>
     
     
@@ -365,12 +349,12 @@
            <label>
              OTHER
            </label>
-           <input  type="" class="form-control" id="contact" placeholder="How did you hear about us">
+           <input  type="" class="form-control" id="contact" placeholder="How did you hear about us" ngModel>
          </div>
     
     
      <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck" required>
+          <input class="form-check-input" type="checkbox" id="gridCheck" ngModel required>
           <label class="form-check-label" for="gridCheck">
             Accept all terms and conditions
           </label>

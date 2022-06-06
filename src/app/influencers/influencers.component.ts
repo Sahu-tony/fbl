@@ -19,6 +19,17 @@ export class InfluencersComponent implements OnInit {
     this.file=event.target.files[0]
   
   }
+  onsend(userobj:any){
+    console.log(userobj)
+    this.ds.createInfluencers(userobj).subscribe(
+      res=>{
+        
+      },
+      err=>{
+        console.log(err)
+      }
+    )
+}
 
 
 }

@@ -18,7 +18,7 @@ body{
    .abc{
     border-style: ridge;
     border-left-width: 0;
-    height: 1000px;
+    height: 100%;
     width: 300px;
     float: left;
   }

@@ -12,9 +12,11 @@ export class DataService {
   createUser(userObj:any):Observable<any>{
     return  this.hc.post("/createuser",userObj)
   }
-  getUser(username:any):Observable<any>{
-    return this.hc.get(`/user/getuser/${username}`)
+  createInfluencers(influencer:any):Observable<any>{
+    return  this.hc.post("/createinfluencers",influencer)
+  }
+  getUser():Observable<any>{
+    return this.hc.get(`/getuser`)
 }
-  
-  
+    
 }

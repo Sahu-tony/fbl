@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRouteSnapshot, Router } from '@angular/router';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-filters',
@@ -6,25 +8,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./filters.component.css']
 })
 export class FiltersComponent implements OnInit {
-  constructor(private ps:User,private ar:ActivatedRoute) { }
+  data:any;
+  vendors=[];
   first:any;
-  userObj:any;
-  ngOnInit(): void {
-    let id=this.ar.snapshot.params.id
-    //get data of user with this current id
-  this.ps.getNetflixMovieRatingById(id).subscribe(
-  obj=>{
+  constructor(private ds:DataService,private router:Router) { }
+      ngOnInit(): void {
+      this.ds.getUser().subscribe(
+      res=>{
+        this.data=res;
+        console.log(this.data)
+        this.first=this.data[Object.keys(this.data)[0]]
+         console.log(this.first)
+         console.log(this.data[Object.keys(this.data)[0]])
 
-    this.first=obj;
-    this.NetflixObj=this.first[Object.keys(this.first)[0]]
-    
-  },
-  err=>{
-    console.log("err in reading user",err)
-  }
-)
+      },
+      err=>{
+        console.log(err)
+      }
+    )
 }
-    
-  }
+}
 
-}
