@@ -21,7 +21,7 @@ const routes: Routes = [
   {path:'fbl',component:FblComponent},
   {path:'influencers',component:InfluencersComponent},
   {path:'partner',component:PartnerComponent,children:[
-    {path:'vendors',component:VendorsComponent},
+  {path:'vendors',component:VendorsComponent},
    
   ]},
   {path:'filters',component:FiltersComponent},
