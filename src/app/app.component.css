@@ -145,28 +145,26 @@ body {
 }
 .footer {
   padding: 40px 0;
-<<<<<<< HEAD
-=======
+
+
   background-color:white;
   bottom:0;
   height: 5px;
   position: relative;
 
->>>>>>> 4ab7610ca5ce713dfe03461717eb4e30f7289bc4
 
   height: 80px;
   margin-bottom: 100px;
 }
 
-<<<<<<< HEAD
+
 .foot {
   position: relative;
   top: 900px;
-=======
-.foot{
+
+
   display:inline;
-  
->>>>>>> 4ab7610ca5ce713dfe03461717eb4e30f7289bc4
+
   left: 0;
   bottom: 0;
   width: 100%;
