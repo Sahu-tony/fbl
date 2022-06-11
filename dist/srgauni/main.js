@@ -33,7 +33,7 @@ class VendorsComponent {
     }
 }
 VendorsComponent.ɵfac = function VendorsComponent_Factory(t) { return new (t || VendorsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_data_service__WEBPACK_IMPORTED_MODULE_1__["DataService"])); };
-VendorsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VendorsComponent, selectors: [["app-vendors"]], decls: 120, vars: 0, consts: [[1, "form_deets"], [1, "extra"], ["src", "pic2.jpg", "alt", "picture", 1, "ven_pic"], [1, "row", "g-3", 3, "ngSubmit"], ["ref", "ngForm"], [1, "col-sm-4"], ["for", "company", 1, "form-label"], ["type", "text", "id", "company", "ngModel", "", "required", "", 1, "form-control"], [1, "row"], [1, "col-sm-6", 2, "margin-top", "10px"], ["for", "Address", 1, "form-label"], ["type", "text", "placeholder", "Street Address Line 1", "id", "Address", "name", "Address", "ngModel", "", "required", "", 1, "form-control"], ["type", "text", "id", "Address2", "ngModel", "", "placeholder", "Street Address Line 2", "name", "Address2", "required", "", 1, "form-control", 2, "margin-top", "15px"], [1, "col-sm-5"], [1, "col-sm-3", 2, "margin-top", "15px"], ["type", "text", "id", "Addressc", "placeholder", "City", "ngModel", "", "name", "Addressc", "ngModel", "", "required", "", 1, "form-control"], ["type", "text", "id", "Addressr", "placeholder", "Region", "ngModel", "", "name", "Addressr", "ngModel", "", "required", "", 1, "form-control"], ["type", "number", "id", "Addressp", "placeholder", "Postal/Zip Code", "ngModel", "", "name", "Addressp", "ngModel", "", "required", "", 1, "form-control"], ["type", "text", "id", "Addresst", "placeholder", "Country", "ngModel", "", "name", "Addresst", "ngModel", "", "required", "", 1, "form-control"], [1, "col-sm-2"], ["for", "no_of_branch", "id", "branches", "name", "branches", "ngModel", "", "required", "", 1, "form-label"], ["aria-label", "Default select example", 1, "form-select"], ["value", "1", "selected", ""], ["value", "2"], ["value", "3"], ["value", "4"], ["value", ">4"], [1, "col-sm-1"], [1, "col-md-4"], ["for", "branch_loc", 1, "form-label"], ["type", "text", "id", "branch_loc", "placeholder", "Ex: Hyderabad, Secunderabad etc.", "ngModel", "", "name", "branch_loc", "required", "", 1, "form-control"], ["for", "online_service", "id", "os", "name", "os", "required", "", 1, "form-label"], [1, "form-check", "form-check-inline"], ["type", "radio", "name", "inlineRadioOptions", "ngModel", "", "id", "Radio1", "value", "yes", 1, "form-check-input"], ["for", "Radio1", 1, "form-check-label"], ["type", "radio", "name", "inlineRadioOptions", "ngModel", "", "id", "Radio2", "value", "no", 1, "form-check-input"], ["for", "Radio2", 1, "form-check-label"], ["for", "web_link", 1, "form-label"], ["type", "text", "id", "link", "name", "link", "ngModel", "", "required", "", 1, "form-control"], [1, "col-sm-3"], ["for", "no_of_branch", "id", "nb", "name", "nb", "required", "", 1, "form-label"], [1, "col-sm-9"], ["for", "est_yr", "name", "year", "name", "year", "required", "", 1, "form-label"], ["type", "number", "id", "est_yr", "ngModel", "", "placeholder", "Ex:2016", 1, "form-control"], ["for", "specialised", "id", "specialized", "name", "specialized", "required", "", 1, "form-label"], ["type", "text", "id", "specialised", "placeholder", "Ex:Wedding wear etc.", "ngModel", "", 1, "form-control"], [1, "col-sm-6"], ["for", "turnover", "required", "", 1, "form-label"], ["for", "online_service", 1, "form-label"], ["type", "radio", "name", "inlineRadioOptions", "id", "Radio1", "value", "yes", "ngModel", "", 1, "form-check-input"], ["type", "radio", "name", "inlineRadioOptions", "id", "Radio2", "value", "no", "ngModel", "", 1, "form-check-input"], ["for", "expenses", 1, "form-label"], ["type", "number", "id", "expenses", "placeholder", "INR", "ngModel", "", 1, "form-control"], ["for", "addr_link", 1, "form-label"], ["type", "text", "id", "addr_link", "required", "", "ngModel", "", 1, "form-control"], [1, "form-check"], ["type", "checkbox", "id", "gridCheck", "required", "", "ngModel", "", 1, "form-check-input"], ["for", "gridCheck", 1, "form-check-label"], [1, "col-3"], ["type", "submit", 1, "btn", "btn-primary"]], template: function VendorsComponent_Template(rf, ctx) { if (rf & 1) {
+VendorsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VendorsComponent, selectors: [["app-vendors"]], decls: 120, vars: 0, consts: [[1, "form_deets"], [1, "extra"], ["src", "pic2.jpg", "alt", "picture", 1, "ven_pic"], [1, "row", "g-3", 3, "ngSubmit"], ["ref", "ngForm"], [1, "col-sm-4"], ["for", "company", 1, "form-label"], ["type", "text", "id", "company", "ngModel", "", "required", "", 1, "form-control"], [1, "row"], [1, "col-sm-6", 2, "margin-top", "10px"], ["for", "Address", 1, "form-label"], ["type", "text", "placeholder", "Street Address Line 1", "id", "Address", "name", "Address", "ngModel", "", "required", "", 1, "form-control"], ["type", "text", "id", "Address2", "ngModel", "", "placeholder", "Street Address Line 2", "name", "Address2", "required", "", 1, "form-control", 2, "margin-top", "15px"], [1, "col-sm-5"], [1, "col-sm-3", 2, "margin-top", "15px"], ["type", "text", "id", "Addressc", "placeholder", "City", "ngModel", "", "name", "Addressc", "ngModel", "", "required", "", 1, "form-control"], ["type", "text", "id", "Addressr", "placeholder", "Region", "ngModel", "", "name", "Addressr", "ngModel", "", "required", "", 1, "form-control"], ["type", "number", "id", "Addressp", "placeholder", "Postal/Zip Code", "ngModel", "", "name", "Addressp", "ngModel", "", "required", "", 1, "form-control"], ["type", "text", "id", "Addresst", "placeholder", "Country", "ngModel", "", "name", "Addresst", "ngModel", "", "required", "", 1, "form-control"], [1, "col-sm-2"], ["for", "no_of_branch", "id", "branches", "name", "branches", "ngModel", "", "required", "", 1, "form-label"], ["aria-label", "Default select example", 1, "form-select"], ["value", "1", "selected", ""], ["value", "2"], ["value", "3"], ["value", "4"], ["value", ">4"], [1, "col-sm-1"], [1, "col-md-4"], ["for", "branch_loc", 1, "form-label"], ["type", "text", "id", "branch_loc", "placeholder", "Ex: Hyderabad, Secunderabad etc.", "ngModel", "", "name", "branch_loc", "required", "", 1, "form-control"], ["for", "online_service", "id", "os", "name", "os", "required", "", 1, "form-label"], [1, "form-check", "form-check-inline"], ["type", "radio", "name", "inlineRadioOptions", "ngModel", "", "id", "Radio", "value", "yes", 1, "form-check-input"], ["for", "Radio", 1, "form-check-label"], ["type", "radio", "name", "inlineRadioOptions", "ngModel", "", "id", "Radio3", "value", "no", 1, "form-check-input"], ["for", "Radio3", 1, "form-check-label"], ["for", "web_link", 1, "form-label"], ["type", "text", "id", "link", "name", "link", "ngModel", "", "required", "", 1, "form-control"], [1, "col-sm-3"], ["for", "no_of_branch", "id", "nb", "name", "nb", "required", "", 1, "form-label"], [1, "col-sm-9"], ["for", "est_yr", "name", "year", "name", "year", "required", "", 1, "form-label"], ["type", "number", "id", "est_yr", "placeholder", "Ex:2016", "ngModel", "", 1, "form-control"], ["for", "specialised", "id", "specialized", "name", "specialized", "required", "", 1, "form-label"], ["type", "text", "id", "specialised", "placeholder", "Ex:Wedding wear etc.", "ngModel", "", 1, "form-control"], [1, "col-sm-6"], ["for", "turnover", "required", "", 1, "form-label"], ["for", "online_service", 1, "form-label"], ["type", "radio", "name", "inlineRadioOptions", "id", "Radio1", "value", "yes", "ngModel", "", 1, "form-check-input"], ["for", "Radio1", 1, "form-check-label"], ["type", "radio", "name", "inlineRadioOptions", "id", "Radio2", "value", "no", "ngModel", "", 1, "form-check-input"], ["for", "Radio2", 1, "form-check-label"], ["for", "expenses", 1, "form-label"], ["type", "number", "id", "expenses", "placeholder", "INR", "ngModel", "", 1, "form-control"], ["for", "addr_link", 1, "form-label"], ["type", "text", "id", "addr_link", "required", "", "ngModel", "", 1, "form-control"], [1, "form-check"], ["type", "checkbox", "id", "gridCheck", "required", "", "ngModel", "", 1, "form-check-input"], ["for", "gridCheck", 1, "form-check-label"], [1, "col-3"], ["type", "submit", 1, "btn", "btn-primary"]], template: function VendorsComponent_Template(rf, ctx) { if (rf & 1) {
         const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
@@ -173,13 +173,13 @@ VendorsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "div", 32);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](95, "input", 49);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "label", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "label", 50);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, "Yes");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "div", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](99, "input", 50);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "label", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](99, "input", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "label", 52);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](101, "No");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -187,26 +187,26 @@ VendorsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](102, "div", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "div", 39);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "label", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "label", 53);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "Monthly expenses on Digital Marketing ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](106, "input", 52);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](106, "input", 54);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](107, "div", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "label", 53);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "label", 55);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](110, "Store address link * ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](111, "input", 54);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](111, "input", 56);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "div", 55);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](113, "input", 56);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "label", 57);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "div", 57);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](113, "input", 58);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "label", 59);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](115, " Accept all terms and conditions ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div", 58);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "button", 59);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div", 60);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "button", 61);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](118, "Submit");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -250,7 +250,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 15, vars: 0, consts: [["id", "carouselExampleSlidesOnly", "data-bs-ride", "carousel", "data-bs-interval", "2000", "data-bs-pause", "hover", 1, "carousel", "slide"], [1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1508921912186-1d1a45ebb3c1%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG98ZW58MHx8MHx8%26w%3D1000%26q%3D80&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fphoto&tbnid=5CH27koKKHxxuM&vet=12ahUKEwjm67_7tOP3AhXlktgFHTq_DDUQMygAegUIARDTAQ..i&docid=AgAT_yR1X6xrJM&w=1000&h=1500&q=photos&ved=2ahUKEwjm67_7tOP3AhXlktgFHTq_DDUQMygAegUIARDTAQ", "alt", "Photo", 1, "d-block", "w-100", "pict"], [1, "carousel-item"], ["src", "C:\\Users\\tony\\srgauni\\src\\assets\\images\\pic3.jpeg", "alt", "Photo", 1, "d-block", "w-100", "pict"], ["src", "C:\\Users\\tony\\srgauni\\src\\assets\\images\\pic4.jpeg", "alt", "Photo", 1, "d-block", "w-100", "pict"], ["src", "C:\\Users\\tony\\srgauni\\src\\assets\\images\\pic5.jpeg", "alt", "Photo", 1, "d-block", "w-100", "pict"], [1, "cmngsoon"], [2, "color", "black"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 12, vars: 0, consts: [["id", "carouselExampleSlidesOnly", "data-bs-ride", "carousel", "data-bs-interval", "2000", "data-bs-pause", "hover", 1, "carousel", "slide"], [1, "carousel-inner"], [1, "carousel-item", "active"], ["src", ".\\assets\\images\\pic4.jpeg", "alt", "Photo", 1, "d-block", "w-100", "pict"], [1, "carousel-item"], ["src", ".\\assets\\images\\logo.jpeg", "alt", "Photo", 1, "d-block", "w-100", "pict"], ["src", ".\\assets\\images\\pic5.jpeg", "alt", "Photo", 1, "d-block", "w-100", "pict"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -260,20 +260,15 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "img", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "img", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "img", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "h2", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "COMING SOON.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]], styles: ["p[_ngcontent-%COMP%]{\r\n    color: rgb(201, 7, 7);\r\n    font-size: 100px;\r\n    text-align: center;\r\n    margin-top: 10px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhvbWUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHFCQUFxQjtJQUNyQixnQkFBZ0I7SUFDaEIsa0JBQWtCO0lBQ2xCLGdCQUFnQjtBQUNwQiIsImZpbGUiOiJob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwe1xyXG4gICAgY29sb3I6IHJnYigyMDEsIDcsIDcpO1xyXG4gICAgZm9udC1zaXplOiAxMDBweDtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbn0iXX0= */"] });
 
@@ -425,7 +420,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 44, vars: 0, consts: [[1, ""], [1, "navbar", "navbar-expand-lg", "navbar-light", "bg-light"], [1, "container-fluid"], ["routerLink", "Home", 1, "navbar-brand"], ["src", "logo.jpeg", "alt", "Logo", 1, "logo"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarNav", 1, "collapse", "navbar-collapse"], [1, "navbar-nav"], [1, "nav-item"], ["aria-current", "page", "routerLink", "home", 1, "nav-link"], ["routerLink", "fbl", 1, "nav-link"], ["routerLink", "aboutus", 1, "nav-link"], ["routerLink", "partner", 1, "nav-link"], ["routerLink", "careers", 1, "nav-link"], ["routerLink", "contactus", 1, "nav-link"], ["type", "text", "name", "search", "placeholder", "Search", 1, "round"], [1, "foot"], [1, "footer"], [1, "social"], ["href", "#"], [1, "fab", "fa-instagram"], [1, "fab", "fa-facebook"], [1, "fab", "fa-twitter"], [1, "fab", "fa-linkedin"], [1, "copyright"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 44, vars: 0, consts: [[1, ""], [1, "navbar", "navbar-expand-lg", "navbar-light", "bg-light"], [1, "container-fluid"], ["routerLink", "Home", 1, "navbar-brand"], ["src", "./assets/images/logo.jpeg", "alt", "Logo", 1, "logo"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarNav", 1, "collapse", "navbar-collapse"], [1, "navbar-nav"], [1, "nav-item"], ["aria-current", "page", "routerLink", "home", 1, "nav-link"], ["routerLink", "fbl", 1, "nav-link"], ["routerLink", "aboutus", 1, "nav-link"], ["routerLink", "partner", 1, "nav-link"], ["routerLink", "careers", 1, "nav-link"], ["routerLink", "contactus", 1, "nav-link"], ["type", "text", "name", "search", "placeholder", "Search", 1, "round"], [1, "foot"], [1, "footer"], [1, "social"], ["href", "#"], [1, "fab", "fa-instagram"], [1, "fab", "fa-facebook"], [1, "fab", "fa-twitter"], [1, "fab", "fa-linkedin"], [1, "copyright"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "h1", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nav", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
