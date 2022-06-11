@@ -5,15 +5,13 @@ body {
   float: left;
 }
 
-
-
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 body {
@@ -23,50 +21,54 @@ body {
   text-align: center;
 }
 
-
-
-.logo{
+.logo {
   width: 110px;
   height: 60px;
-
 }
 
-
-.navbar-brand{
+.navbar-brand {
   display: inline-block;
   width: 100px;
   margin-right: 30px;
 }
 
-.nav-item{
-      margin-right: 30px;
+.navbar {
+  padding: 20px;
 }
 
-.nav-link{
+.nav-item {
+  /* margin-right: 30px; */
+  width: 200px;
+  text-align: center;
+}
+
+.nav-link {
   border: none;
   background-color: #f8f9fa;
+  font-size: 1.5rem;
 }
 
+.container-fluid {
+  width: 80px;
+}
 
 .round {
-    margin-left: 400px;
-    border-radius: 15px;
-    border: 1px grey solid;
-    padding: 5px 5px 5px 25px;
-    position: absolute;
-    z-index: 5;
+  margin-left: 400px;
+  border-radius: 15px;
+  border: 1px grey solid;
+  padding: 5px 5px 5px 25px;
+  position: absolute;
+  z-index: 5;
 }
 
-.signin{
+.signin {
   margin-left: 400px;
-
 }
 
 .dropbtn {
   border: none;
   cursor: pointer;
   margin-top: 5px;
-
 }
 
 .dropdown {
@@ -102,174 +104,28 @@ body {
   background-color: grey;
 }
 
-
-/* VENDOR FORM */
-
-.info{
-  color: black;
-}
-
-.heading{
-  text-align: left;
-  color: black;
-  padding-left: 100px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-
-}
-
-.head_1{
-  font-size: 25px;
-}
-
-.head_2{
-  font-size: 50px;
-}
-
-.form_deets{
-  text-align: left;
-  padding-top: 75px;
-  padding-left: 75px;
-  padding-bottom: 50px;;
-  background-color: #CCD1D1;
-  width: auto;
-  height: 1150px;
-  position: relative;
-}
-
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-
-/* .extra{
-  background-color: grey;
-  margin-top: 100px;
-}
-
-.padding{
-  background-color: #CCD1D1;
-} */
-
-
-.ven_pic{
-/*  margin-left: 1100px;
-  margin-right: 1500px; */
-
-  width: 300px;
-  height: 400px;
-  text-align: right;
-  position: absolute;
-  right: 40px;
-  bottom: 950px;
-}
-
-
-
-/* VEN_INFLU */
-.full{
-  text-align: left;
-  color: black;
-}
-
-.text{
-  width: auto;
-  height: 300px;
-
-}
-
-.abc{
-
-}
-
-.ven_data{
-   margin-bottom: 50px;
-   width: auto;
-   height: 400px;
-   position: relative;
-}
-
-.inf_data{
-  width: auto;
-  height: 400px;
-  position: relative;
-}
-
-.ven, .inf{
-  background-color: #575757;
-  display: inline-block;
-  margin-left: 50px;
-  font-size: 40px;
-  width: 400px;
-  height: 80px;
-  text-align: center;
-
-}
-
- .inf{
-   position: absolute;
-   width: 400px;
-   height: 80px;
-   bottom: 370px;
-}
-
-.ven{
-  position: absolute;
-  width: 400px;
-  height: 80px;
-  bottom: 370px;
-}
-
-.data_v, .data_i{
-  background-color: #c2c2c2;
-  width: auto;
-  height: 300px;
-  padding-top: 100px;
-
-
-}
-
-.data_i{
-  margin-bottom: 100px;
-}
-
-a{
-  text-decoration: none;
-  color: white;
-}
-
-a:hover{
-    color: #e5e1e1;
-
-}
-
-
-
 /* Home */
 
-.pict{
+.pict {
   width: auto;
   height: 650px;
 }
 
 /* Influencer form */
 
-.form_deets2{
+.form_deets2 {
   text-align: left;
   padding-top: 75px;
   padding-left: 75px;
-  padding-bottom: 50px;;
-  background-color: #CCD1D1;
+  padding-bottom: 50px;
+  background-color: #ccd1d1;
   width: auto;
   height: 1900px;
   position: relative;
 }
 
-.influ_pic{
-/*  margin-left: 1100px;
+.influ_pic {
+  /*  margin-left: 1100px;
   margin-right: 1500px; */
 
   width: 300px;
@@ -280,72 +136,64 @@ a:hover{
   bottom: 1700px;
 }
 
-
 /*footer*/
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 body {
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-weight: 400;
-  background-color:#ededed;
-
+  background-color: #ededed;
 }
 .footer {
-  padding: 40px 0;
-  background-color:white;
-  bottom:0;
-  height: 5px;
- 
-
-
+  padding: 40px;
+  background-color: black;
+  height: 100px;
 }
 
-.foot{
+.foot {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #575757;
+  background-color: black;
+  /*padding-bottom: 50px; 
+  margin-bottom: 500px; */
 }
 
-.footer .social  {
+.footer .social {
   text-align: center;
   padding-bottom: 25px;
   color: #4b4b4b;
   margin: auto;
 }
-.footer .social a{
+.footer .social a {
   font-size: 24px;
-  color:inherit;
-  border:1px solid #ccc;
+  color: inherit;
+  border: 1px solid #ccc;
   width: 40px;
   height: 40px;
   line-height: 38px;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  margin: 0.8px;
+  margin: 10px;
   opacity: 0.75;
 }
 .footer .social a:hover {
   opacity: 0.9;
-
 }
 
 .footer ul {
   margin-top: 0;
-  padding:0;
+  padding: 0;
   list-style: none;
   font-size: 18px;
   line-height: 1;
-  margin-bottom:0 ;
-
+  margin-bottom: 0;
 }
 
 .footer ul li a {
@@ -357,7 +205,6 @@ body {
 .footer ul li {
   display: inline-block;
   padding: 0 15px;
-
 }
 
 .footer ul li a:hover {
@@ -367,11 +214,6 @@ body {
 .footer .copyright {
   margin-top: 15px;
   text-align: center;
-  font-size:13px;
-  color:#aaa;
+  font-size: 13px;
+  color: #aaa;
 }
-
-
-
-
-  
