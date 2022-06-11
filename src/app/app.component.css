@@ -301,14 +301,14 @@ body {
   background-color:white;
   bottom:0;
   height: 5px;
-  position: relative;
-
+  
 
 }
 
 .foot{
-  display:inline;
   
+  position: fixed;
+  display: inline;
   left: 0;
   bottom: 0;
   width: 100%;
