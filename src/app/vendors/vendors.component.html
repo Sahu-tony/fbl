@@ -1,141 +1,286 @@
 <div class="form_deets">
-    <div class="extra" >
-    <img src="pic2.jpg" alt="picture" class="ven_pic" >
+  <div class="extra">
+    <img src="" alt="picture" class="ven_pic" />
+  </div>
+  <h4>FILL IN THE FORM</h4>
+  <form class="row g-3" #ref="ngForm" (ngSubmit)="onsend(ref.value)">
+    <div class="col-sm-4">
+      <label for="company" class="form-label">Company name *</label>
+      <input type="text" class="form-control" id="company" ngModel required />
     </div>
-    <h4>FILL IN THE FORM</h4>
-    <form class="row g-3" #ref="ngForm"  (ngSubmit)="onsend(ref.value)">
-      <div class="col-sm-4">
-        <label for="company" class="form-label">Company name *</label>
-        <input type="text" class="form-control" id="company" ngModel  required>
-      </div>
-      <div class="col-sm-4"></div>
-      <!-- <div class="col-sm-4">
+    <div class="col-sm-4"></div>
+    <!-- <div class="col-sm-4">
         <label for="inputPassword4" class="form-label">Password</label>
         <input type="password" class="form-control" id="inputPassword4">
       </div> -->
-    
-      <div class="row" >
-    
-        <div class="col-sm-6" style="margin-top:10px;" >
-          <label for="Address" class="form-label">Address *</label>
-      <!--  <label for="Address" class="form-label">Address *</label> -->
-        <input type="text" class="form-control"  placeholder="Street Address Line 1" id="Address" name="Address" ngModel required>
-    
-        <input style="margin-top:15px;" type="text" class="form-control" id="Address2" ngModel  placeholder="Street Address Line 2" name="Address2" required>
-    
-    </div>
-    <div class="col-sm-5"></div>
-        <div style="margin-top:15px;" class="col-sm-3" >
-          <input  type="text" class="form-control" id="Addressc" placeholder="City" ngModel  name="Addressc" ngModel required>
-        </div>
-        <div style="margin-top:15px;" class="col-sm-3">
-          <input  type="text" class="form-control" id="Addressr" placeholder="Region" ngModel  name="Addressr" ngModel required>
-        </div>
-    <div class="col-sm-5"></div>
-    <div style="margin-top:15px;" class="col-sm-3">
-      <input  type="number" class="form-control" id="Addressp" placeholder="Postal/Zip Code" ngModel  name="Addressp" ngModel required>
-    </div>
-    <div style="margin-top:15px;" class="col-sm-3">
-      <input  type="text" class="form-control" id="Addresst" placeholder="Country" ngModel  name="Addresst" ngModel required>
-    </div>
+
+    <div class="row">
+      <div class="col-sm-6" style="margin-top: 10px">
+        <label for="Address" class="form-label">Address *</label>
+        <!--  <label for="Address" class="form-label">Address *</label> -->
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Street Address Line 1"
+          id="Address"
+          name="Address"
+          ngModel
+          required
+        />
+
+        <input
+          style="margin-top: 15px"
+          type="text"
+          class="form-control"
+          id="Address2"
+          ngModel
+          placeholder="Street Address Line 2"
+          name="Address2"
+          required
+        />
       </div>
-      <div class="col-sm-2">
-        <label for="no_of_branch" class="form-label" id="branches" name="branches" ngModel  required>Number of branches * </label>
-        <select class="form-select" aria-label="Default select example">
+      <div class="col-sm-5"></div>
+      <div style="margin-top: 15px" class="col-sm-3">
+        <input
+          type="text"
+          class="form-control"
+          id="Addressc"
+          placeholder="City"
+          ngModel
+          name="Addressc"
+          ngModel
+          required
+        />
+      </div>
+      <div style="margin-top: 15px" class="col-sm-3">
+        <input
+          type="text"
+          class="form-control"
+          id="Addressr"
+          placeholder="Region"
+          ngModel
+          name="Addressr"
+          ngModel
+          required
+        />
+      </div>
+      <div class="col-sm-5"></div>
+      <div style="margin-top: 15px" class="col-sm-3">
+        <input
+          type="number"
+          class="form-control"
+          id="Addressp"
+          placeholder="Postal/Zip Code"
+          ngModel
+          name="Addressp"
+          ngModel
+          required
+        />
+      </div>
+      <div style="margin-top: 15px" class="col-sm-3">
+        <input
+          type="text"
+          class="form-control"
+          id="Addresst"
+          placeholder="Country"
+          ngModel
+          name="Addresst"
+          ngModel
+          required
+        />
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <label
+        for="no_of_branch"
+        class="form-label"
+        id="branches"
+        name="branches"
+        ngModel
+        required
+        >Number of branches *
+      </label>
+      <select class="form-select" aria-label="Default select example">
         <option value="1" selected>1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
         <option value=">4">>4</option>
       </select>
-      </div>
-      <div class="col-sm-1"></div>
-      <div class="col-md-4">
-        <label for="branch_loc" class="form-label">Branches located in *</label>
-        <input type="text" class="form-control" id="branch_loc" placeholder="Ex: Hyderabad, Secunderabad etc." ngModel  name="branch_loc" required>
-      </div>
-      <div class="col-sm-4"></div>
-      <div class="col-sm-2">
-        <label for="online_service" class="form-label" id="os" name="os" required>Provides online service *</label>
-          <div>
-            <div class="form-check form-check-inline">
-             <input class="form-check-input" type="radio" name="inlineRadioOptions" ngModel  id="Radio1" value="yes">
-             <label class="form-check-label" for="Radio1">Yes</label>
-           </div>
-           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" ngModel  id="Radio2" value="no">
-            <label class="form-check-label" for="Radio2">No</label>
-          </div>
-        </div>
     </div>
     <div class="col-sm-1"></div>
-    <div class="col-sm-5">
-      <label for="web_link" class="form-label" >If Yes, provide website link </label>
-      <input type="text" class="form-control" id="link" name="link"  ngModel required >
+    <div class="col-md-4">
+      <label for="branch_loc" class="form-label">Branches located in *</label>
+      <input
+        type="text"
+        class="form-control"
+        id="branch_loc"
+        placeholder="Ex: Hyderabad, Secunderabad etc."
+        ngModel
+        name="branch_loc"
+        required
+      />
     </div>
-    <div class="col-sm-3"></div>
-    <div class="col-sm-3">
-      <label for="no_of_branch" class="form-label" id="nb" name="nb" required>Business Platform *</label>
-      <select class="form-select" aria-label="Default select example">
-      <option value="1" selected></option>
-      <option value="2"></option>
-    </select>
-    </div>
-    <div class="col-sm-9"></div>
+    <div class="col-sm-4"></div>
     <div class="col-sm-2">
-      <label for="est_yr" class="form-label" name="year" name="year" required>Established year *</label>
-      <input  type="number" class="form-control" id="est_yr"  ngModel placeholder="Ex:2016">
-    </div>
-    <div class="col-sm-4">
-      <label for="specialised" class="form-label" id="specialized" name="specialized" required>Specialised in *</label>
-      <input  type="text" class="form-control" id="specialised" placeholder="Ex:Wedding wear etc."  ngModel>
-    </div>
-    
-    <div class="col-sm-6"></div>
-    <div class="col-sm-3">
-      <label for="turnover" class="form-label" required>Business Turnover *</label>
-      <select class="form-select" aria-label="Default select example">
-      <option value="1" selected>0-50Lakhs</option>
-      <option value="2"></option>
-    </select>
-    </div>
-    <div class="col-sm-1"></div>
-    <div class="col-sm-5">
-      <label for="online_service" class="form-label">Currently associated with influencers *</label>
-        <div>
-          <div class="form-check form-check-inline">
-           <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Radio1" value="yes" ngModel>
-           <label class="form-check-label" for="Radio1">Yes</label>
-         </div>
-         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Radio2" value="no" ngModel>
+      <label for="online_service" class="form-label" id="os" name="os" required
+        >Provides online service *</label
+      >
+      <div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="inlineRadioOptions"
+            ngModel
+            id="Radio1"
+            value="yes"
+          />
+          <label class="form-check-label" for="Radio1">Yes</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="inlineRadioOptions"
+            ngModel
+            id="Radio2"
+            value="no"
+          />
           <label class="form-check-label" for="Radio2">No</label>
         </div>
       </div>
     </div>
     <div class="col-sm-1"></div>
-    
+    <div class="col-sm-5">
+      <label for="web_link" class="form-label"
+        >If Yes, provide website link
+      </label>
+      <input
+        type="text"
+        class="form-control"
+        id="link"
+        name="link"
+        ngModel
+        required
+      />
+    </div>
+    <div class="col-sm-3"></div>
     <div class="col-sm-3">
-      <label for="expenses" class="form-label">Monthly expenses on Digital Marketing </label>
-      <input  type="number" class="form-control" id="expenses" placeholder="INR" ngModel>
+      <label for="no_of_branch" class="form-label" id="nb" name="nb" required
+        >Business Platform *</label
+      >
+      <select class="form-select" aria-label="Default select example">
+        <option value="1" selected></option>
+        <option value="2"></option>
+      </select>
+    </div>
+    <div class="col-sm-9"></div>
+    <div class="col-sm-2">
+      <label for="est_yr" class="form-label" name="year" name="year" required
+        >Established year *</label
+      >
+      <input
+        type="number"
+        class="form-control"
+        id="est_yr"
+        ngModel
+        placeholder="Ex:2016"
+      />
+    </div>
+    <div class="col-sm-4">
+      <label
+        for="specialised"
+        class="form-label"
+        id="specialized"
+        name="specialized"
+        required
+        >Specialised in *</label
+      >
+      <input
+        type="text"
+        class="form-control"
+        id="specialised"
+        placeholder="Ex:Wedding wear etc."
+        ngModel
+      />
+    </div>
+
+    <div class="col-sm-6"></div>
+    <div class="col-sm-3">
+      <label for="turnover" class="form-label" required
+        >Business Turnover *</label
+      >
+      <select class="form-select" aria-label="Default select example">
+        <option value="1" selected>0-50Lakhs</option>
+        <option value="2"></option>
+      </select>
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5">
+      <label for="online_service" class="form-label"
+        >Currently associated with influencers *</label
+      >
+      <div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="inlineRadioOptions"
+            id="Radio1"
+            value="yes"
+            ngModel
+          />
+          <label class="form-check-label" for="Radio1">Yes</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="inlineRadioOptions"
+            id="Radio2"
+            value="no"
+            ngModel
+          />
+          <label class="form-check-label" for="Radio2">No</label>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+
+    <div class="col-sm-3">
+      <label for="expenses" class="form-label"
+        >Monthly expenses on Digital Marketing
+      </label>
+      <input
+        type="number"
+        class="form-control"
+        id="expenses"
+        placeholder="INR"
+        ngModel
+      />
     </div>
     <div class="col-sm-5"></div>
     <div class="col-sm-5">
       <label for="addr_link" class="form-label">Store address link * </label>
-      <input  type="text" class="form-control" id="addr_link" required ngModel >
+      <input type="text" class="form-control" id="addr_link" required ngModel />
     </div>
-    
+
     <div class="form-check">
-         <input class="form-check-input" type="checkbox" id="gridCheck" required ngModel>
-         <label class="form-check-label" for="gridCheck">
-           Accept all terms and conditions
-         </label>
-       </div>
-       <div class="col-3">
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-    
-    
-    </form>
+      <input
+        class="form-check-input"
+        type="checkbox"
+        id="gridCheck"
+        required
+        ngModel
+      />
+      <label class="form-check-label" for="gridCheck">
+        Accept all terms and conditions
+      </label>
     </div>
+    <div class="col-3">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>
 <router-outlet></router-outlet>

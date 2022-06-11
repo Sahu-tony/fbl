@@ -1,0 +1,101 @@
+.full,
+.def {
+  text-align: left;
+  color: black;
+}
+
+.text {
+  width: auto;
+  height: 300px;
+}
+
+.img_ven {
+  width: 250px;
+  height: 300px;
+  text-align: right;
+  position: absolute;
+  right: 180px;
+  bottom: 150px;
+}
+
+.abc {
+  margin-top: 80px;
+}
+
+pre {
+  font-family: Verdana, sans-serif;
+  line-height: 2rem;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.ven_data,
+.abt_data {
+  margin-bottom: 50px;
+  width: auto;
+  height: 400px;
+  position: relative;
+}
+
+.inf_data {
+  width: auto;
+  height: 400px;
+  position: relative;
+}
+
+.img_influ {
+  width: 250px;
+  height: 300px;
+  text-align: right;
+  position: absolute;
+  right: 180px;
+  bottom: 140px;
+}
+
+.ven,
+.inf,
+.blog {
+  background-color: #575757;
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 40px;
+  width: 400px;
+  height: 80px;
+  text-align: center;
+}
+
+.inf {
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  bottom: 370px;
+}
+
+.ven {
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  bottom: 370px;
+}
+
+.data_v,
+.data_i,
+.data_abt {
+  background-color: #c2c2c2;
+  width: auto;
+  height: 300px;
+  padding-top: 50px;
+}
+
+.data_i {
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #e5e1e1;
+}
