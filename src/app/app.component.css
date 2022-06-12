@@ -1,122 +1,16 @@
-<<<<<<< HEAD
-/* html,
-=======
 
->>>>>>> 509bb4733263e4b6a2accd23282f8d0209e3bffe
-body {
-  
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-}
-
-body {
-  font-family: system-ui;
-
-  color: white;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-}
-
-
-
-
-
-
- .logo {
-  width: 110px;
-  height: 60px;
-}
-
-.navbar-brand {
-  display: inline-block;
-  width: 100px;
-  margin-right: 30px;
-}
-
-.navbar {
-  padding: 20px;
-}
-
-.nav-item {
-  
-  width: 200px;
-  text-align: center;
-}
-
-.nav-link {
-  border: none;
-  background-color: #f8f9fa;
-  font-size: 1.5rem;
-}
-
-.container-fluid {
-  width: 80px;
-}
-
-.round {
-  margin-left: 400px;
-  border-radius: 15px;
-  border: 1px grey solid;
-  padding: 5px 5px 5px 25px;
-  position: absolute;
-  z-index: 5;
-}
-
-.signin {
-  margin-left: 400px;
-}
-
-.dropbtn {
-  border: none;
-  cursor: pointer;
-  margin-top: 5px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 100px;
-
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 10px 12px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: grey;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: grey;
-} */
 
 
 /* CSS From Atom */
 
 html,body
 {
-    width: 100%;
+    width: auto;
     height: 100%;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -126,6 +20,7 @@ body {
   color: white;
   text-align: center;
 }
+
 
 
 
@@ -221,15 +116,16 @@ body {
 
 .new_data{
   position: absolute;
-    top: 350px;
+    top: 230px;
     transform: rotate(11deg);
     left: 100px;
 }
 
 .new_data2{
   position: absolute;
-    top: 370px;
-    left: 1000px;
+    top: 470px;
+    left: 800px;
+    transform: rotate(8deg);
 }
 
 .black_logo{
@@ -241,8 +137,8 @@ body {
 
  .grad1{
   /* height: 500px;
-  width: auto; */
-/*  background-image: linear-gradient(45deg, #6303B1, #ff0099); */
+  width: auto; 
+ background-image: linear-gradient(45deg, #6303B1, #ff0099); */
   transform: skewY(-110deg);
 }
 
@@ -265,7 +161,7 @@ body {
 }
 
 .dia2{
-  max-width: 50em;
+    max-width: 50em;
     margin: 0 auto;
     transform: skewY(11deg);
     position: relative;
@@ -292,7 +188,7 @@ body {
 }
 .footer {
   padding: 40px;
-  background-color:white;
+ 
   bottom:0;
   height: 5px;
   position: relative;
