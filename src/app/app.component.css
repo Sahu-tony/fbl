@@ -1,8 +1,5 @@
-
-
-html,
+/* html,
 body {
-  width: 100%;
   
   margin: 0px;
   padding: 0px;
@@ -14,9 +11,17 @@ body {
 
   color: white;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
-.logo {
+
+
+
+
+
+ .logo {
   width: 110px;
   height: 60px;
 }
@@ -32,7 +37,7 @@ body {
 }
 
 .nav-item {
-  /* margin-right: 30px; */
+  
   width: 200px;
   text-align: center;
 }
@@ -97,39 +102,177 @@ body {
 
 .dropdown:hover .dropbtn {
   background-color: grey;
+} */
+
+
+/* CSS From Atom */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
-/* Home */
-
-.pict {
-  width: auto;
-  height: 650px;
+body {
+  font-family: system-ui;
+  margin: 0;
+  color: white;
+  text-align: center;
 }
 
-/* Influencer form */
 
-.form_deets2 {
-  text-align: left;
-  padding-top: 75px;
-  padding-left: 75px;
-  padding-bottom: 50px;
-  background-color: #ccd1d1;
-  width: auto;
-  height: 1900px;
+
+.logo{
+  width: 110px;
+  height: 60px;
+
+}
+
+
+
+
+.navbar-brand{
+  display: inline-block;
+  width: 100px;
+  margin-right: 30px;
+}
+
+.navbar-toggler{
+  color: black;
+}
+
+.nav-item{
+      margin-right: 30px;
+}
+
+.nav-link{
+  border: none;
+  /* background-color: #f8f9fa; */
+
+}
+
+
+.round {
+    margin-left: 400px;
+    border-radius: 15px;
+  /*  border: 1px grey solid; */
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    z-index: 5;
+}
+
+.signin{
+  margin-left: 400px;
+
+}
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+
+}
+
+.dropdown {
   position: relative;
+  display: inline-block;
 }
 
-.influ_pic {
-  /*  margin-left: 1100px;
-  margin-right: 1500px; */
-
-  width: 300px;
-  height: 400px;
-  text-align: right;
+.dropdown-content {
+  display: none;
   position: absolute;
-  right: 40px;
-  bottom: 1700px;
+  background-color: #f9f9f9;
+  min-width: 100px;
+
+  z-index: 1;
 }
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.tag_line{
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+}
+
+.new_data{
+  position: absolute;
+    top: 350px;
+    transform: rotate(11deg);
+    left: 100px;
+}
+
+.new_data2{
+  position: absolute;
+    top: 370px;
+    left: 1000px;
+}
+
+.black_logo{
+  height: 500px;
+    width: 500px;
+    opacity: 30%;
+}
+
+
+ .grad1{
+  /* height: 500px;
+  width: auto; */
+/*  background-image: linear-gradient(45deg, #6303B1, #ff0099); */
+  transform: skewY(-110deg);
+}
+
+.dia{
+  height: 790px;
+  width: auto;
+  background-image: linear-gradient(45deg,#F47340, #F6D860, #EA5C2B, #FF7F3F);
+  transform: skewY(-11deg);
+  position: relative;
+  bottom: 150px;
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 1s;
+
+}
+
+.dia:hover, .dia:focus{
+  background-position: right;
+
+}
+
+.dia2{
+  max-width: 50em;
+    margin: 0 auto;
+    transform: skewY(11deg);
+    position: relative;
+    top: 180px;
+}
+
+
+
+
+
+
 
 /*footer*/
 
@@ -146,29 +289,24 @@ body {
 .footer {
   padding: 40px 0;
 
-
-  background-color:white;
-  bottom:0;
+ 
+  bottom: 0;
   height: 5px;
   position: relative;
-
-
+  margin-bottom: 0;
   height: 80px;
-  margin-bottom: 100px;
 }
 
-
 .foot {
-  position: relative;
-  top: 900px;
-
-
-  display:inline;
-
+  position: absolute;
+  top: 1500px;
+  background-color: orange;
+  display: inline;
+  height: 200px;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #f8f9fa;
+  
   /*padding-bottom: 50px; 
   margin-bottom: 500px; */
 }
@@ -225,4 +363,9 @@ body {
   text-align: center;
   font-size: 13px;
   color: #aaa;
+}
+
+.copyright {
+  padding-bottom: 50px;
+  padding-bottom: 0;
 }
