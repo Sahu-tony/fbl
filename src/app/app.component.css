@@ -291,24 +291,13 @@ body {
   background-color: #ededed;
 }
 .footer {
-<<<<<<< HEAD
-  padding: 40px 0;
-
- 
-  bottom: 0;
-  height: 5px;
-  position: relative;
-  margin-bottom: 0;
-=======
   padding: 40px;
   background-color:white;
   bottom:0;
   height: 5px;
   position: relative;
->>>>>>> 509bb4733263e4b6a2accd23282f8d0209e3bffe
   height: 80px;
 }
-<<<<<<< HEAD
 
 .foot {
   position: absolute;
@@ -316,13 +305,6 @@ body {
   background-color: orange;
   display: inline;
   height: 200px;
-=======
-.foot {
-  position: relative;
-  top: 900px;
-  position: fixed;
-  display: inline;
->>>>>>> 509bb4733263e4b6a2accd23282f8d0209e3bffe
   left: 0;
   bottom: 0;
   width: 100%;
