@@ -51,6 +51,8 @@ body {
 
 .nav-link{
   border: none;
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
   /* background-color: #f8f9fa; */
 
 }
@@ -127,7 +129,7 @@ body {
   position: absolute;
     top: 470px;
     left: 800px;
-    transform: rotate(8deg);
+    transform: rotate(10deg);
 }
 
 .black_logo{
@@ -243,13 +245,13 @@ body {
 .footer .social {
   text-align: center;
   padding-bottom: 25px;
-  color: #4b4b4b;
+  color: black;
   margin: auto;
 }
 .footer .social a {
   font-size: 24px;
   color: inherit;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   width: 40px;
   height: 40px;
   line-height: 38px;
@@ -291,7 +293,7 @@ body {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: #aaa;
+  color: black;
 }
 
 .copyright {
