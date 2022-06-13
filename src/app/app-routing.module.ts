@@ -20,13 +20,15 @@ const routes: Routes = [
   {path:'careers',component:CareersComponent},
   {path:'fbl',component:FblComponent},
   {path:'influencers',component:InfluencersComponent},
-  {path:'partner',component:PartnerComponent,children:[
   {path:'vendors',component:VendorsComponent},
+  {path:'partner',component:PartnerComponent},//,children:[
+  
    
-  ]},
+  //]},
   {path:'filters',component:FiltersComponent},
  
   {path:'',redirectTo:'/home',pathMatch:'full'}
+  
   
 
 ];
