@@ -1,15 +1,42 @@
-p {
-  color: rgb(201, 7, 7);
-  font-size: 100px;
-  text-align: center;
-  margin-top: 0px;
-}
-
 .cmngsoon {
   text-align: center;
 }
 .pict{
-  width: auto;
-  height: 650px;
+
+  width: 350px;
+  height: 350px;
   margin: auto;
 }
+
+.right_cont{
+  opacity: 70%;
+  height: 200px;
+  width: 300px;
+ 
+  margin-left: 200px;
+  border-style: dashed;
+  border-color: #F14A16;
+  border-width: 5px;
+  margin-top: 80px;
+}
+
+
+
+.left_vid{
+  opacity: 70%;
+  height: 100px;
+  width: 200px;
+
+  margin-left: 100px;
+  border-style: dashed;
+  border-color: #F14A16;
+  border-width: 5px;
+  margin-top: 80px;
+}
+
+.ful_div{
+  background-color: #FFF1BD;
+  padding: 30px;
+}
+
+

@@ -53,6 +53,8 @@ body {
 
 .nav-link{
   border: none;
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
   /* background-color: #f8f9fa; */
 
 }
@@ -129,7 +131,7 @@ body {
   position: absolute;
     top: 470px;
     left: 800px;
-    transform: rotate(8deg);
+    transform: rotate(10deg);
 }
 
 .black_logo{
@@ -207,7 +209,7 @@ body {
 
 
 
-/*footer*/
+/*footer */
 
 * {
   margin: 0;
@@ -230,7 +232,7 @@ body {
 
 .foot {
   position: absolute;
-  top: 1500px;
+  top: 1300px;
   background-color: orange;
   display: inline;
   height: 200px;
@@ -238,20 +240,19 @@ body {
   bottom: 0;
   width: 100%;
   
-  /*padding-bottom: 50px; 
-  margin-bottom: 500px; */
+  
 }
 
 .footer .social {
   text-align: center;
   padding-bottom: 25px;
-  color: #4b4b4b;
+  color: black;
   margin: auto;
 }
 .footer .social a {
   font-size: 24px;
   color: inherit;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   width: 40px;
   height: 40px;
   line-height: 38px;
@@ -293,7 +294,7 @@ body {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: rgb(17, 16, 16);
+  color: black;
 }
 
 .copyright {
