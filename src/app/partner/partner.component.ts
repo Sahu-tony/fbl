@@ -15,4 +15,7 @@ export class PartnerComponent implements OnInit {
   onClickInfluencers(){
         this.ar.navigateByUrl('/influencers')
   }
+  onClickVendors(){
+    this.ar.navigateByUrl('/vendors')
+}
 }

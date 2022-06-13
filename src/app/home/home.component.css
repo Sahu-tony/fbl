@@ -1,9 +1,8 @@
-
-
 .cmngsoon {
   text-align: center;
 }
 .pict{
+
   width: 350px;
   height: 350px;
   margin: auto;
@@ -13,7 +12,7 @@
   opacity: 70%;
   height: 200px;
   width: 400px;
-  /* transform: rotate(55deg); */
+ 
   margin-left: 200px;
   border-style: dashed;
   border-color: #F14A16;
@@ -27,7 +26,7 @@
   opacity: 70%;
   height: 200px;
   width: 400px;
-  /* transform: rotate(55deg); */
+
   margin-left: 100px;
   border-style: dashed;
   border-color: #F14A16;
