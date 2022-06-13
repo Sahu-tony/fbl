@@ -15,7 +15,8 @@ html,body
 }
 
 body {
-  font-family: system-ui;
+  
+  font-family: 'Lora', serif;
   margin: 0;
   color: white;
   text-align: center;
@@ -40,11 +41,12 @@ body {
 }
 
 .navbar-toggler{
- color: black; 
+ color: rgb(0, 0, 0); 
 }
 
 .nav-item{
       margin-right: 30px;
+      font-weight: bold;
 }
 
 
@@ -291,7 +293,7 @@ body {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: #aaa;
+  color: rgb(17, 16, 16);
 }
 
 .copyright {
