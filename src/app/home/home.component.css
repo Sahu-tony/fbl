@@ -11,7 +11,7 @@
 .right_cont{
   opacity: 70%;
   height: 200px;
-  width: 400px;
+  width: 300px;
  
   margin-left: 200px;
   border-style: dashed;
@@ -24,8 +24,8 @@
 
 .left_vid{
   opacity: 70%;
-  height: 200px;
-  width: 400px;
+  height: 100px;
+  width: 200px;
 
   margin-left: 100px;
   border-style: dashed;
@@ -33,3 +33,10 @@
   border-width: 5px;
   margin-top: 80px;
 }
+
+.ful_div{
+  background-color: #FFF1BD;
+  padding: 30px;
+}
+
+
