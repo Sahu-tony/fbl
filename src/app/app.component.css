@@ -207,7 +207,7 @@ font-weight: bold;
 
 
 
-/*footer*/
+/*footer */
 
 * {
   margin: 0;
@@ -230,7 +230,7 @@ body {
 
 .foot {
   position: absolute;
-  top: 1500px;
+  top: 1300px;
   background-color: orange;
   display: inline;
   height: 200px;
@@ -238,8 +238,7 @@ body {
   bottom: 0;
   width: 100%;
   
-  /*padding-bottom: 50px; 
-  margin-bottom: 500px; */
+  
 }
 
 .footer .social {
